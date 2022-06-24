@@ -14,7 +14,7 @@ export const deleteToDo = (id) => {
   return {
     type: DELETE,
     id,
-  };
+  }; //
 };
 
 const reducer = (state = [], action) => {
